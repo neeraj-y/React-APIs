@@ -27,7 +27,7 @@ function Counter() {
     const [ isLoading, setIsLoading ] = useState(true);
     
     useEffect(() => {      
-        // componentDidMount
+        // componentDidUpdate
         const url = `https://jsonplaceholder.typicode.com/todos/${randomIndex}`;
         setIsLoading(true);
         // setAuthor(null);
